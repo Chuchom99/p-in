@@ -1,0 +1,44 @@
+
+.about_us__quotex__container {
+    max-width: 1242px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-bottom: 47px;
+    border-bottom: 1px solid rgba(255,255,255,.1);
+    margin-top: 40px !important;
+}
+.about_us__quotex {
+    max-width: 726px;
+    width: 100%;
+}
+ h1 {
+    font-family: Open Sans,Arial,sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 1.1;
+    margin: 0 0 10px;
+}
+.about_us__modern {
+    width: 100%;
+    background: url(../about/img/about-us-modern.png) no-repeat center 130px;
+    padding: 13px 0 0;
+}
+.about_us__desires {
+    max-width: 598px;
+    width: 100%;
+    margin-top: 70px;
+}
+.about_us__desires-title {
+    margin-bottom: 40px;
+}
+h2 {
+    
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #fff;
+}

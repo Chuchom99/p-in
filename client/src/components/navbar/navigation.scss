@@ -6,6 +6,33 @@
     padding: 2% 5%;
     font-family: 'Open Sans', sans-serif;
     border-bottom: 1px solid rgba(255,255,255,.05) ;
+    position: sticky;
+    background-color: #010c17 !important;
+    z-index: 100;
+    top: 0;
+
+    .btn-secondary{
+        background: transparent;
+        border: none;
+        font-weight: 700;
+        letter-spacing: 0.01em;
+        font-size: 14px;
+        line-height: 20px;
+        color: #fff; 
+    }
+    .nav-link{
+        font-weight: 700;
+        letter-spacing: 0.01em;
+        font-size: 14px;
+        line-height: 20px;
+        color: #fff; 
+
+    }
+
+    a{
+        text-decoration: none;
+        color: #fff; 
+    }
 
     .brand-logo{
         width: 150px;
@@ -20,15 +47,69 @@
         .nav-links{
             gap: 25px;
             align-items: center;
-            .nav-link{
-                font-style: normal;
-                font-weight: 500;
-                font-size: 14px;
-                line-height: 20px;
-                color: #fff;
-                white-space: nowrap;
-                letter-spacing: 0.01em;
+        }
+    }
+
+    .second{
+        .log{
+            background: #35b94c;
+            border-radius: 8px;
+            font-weight: 700;
+            font-size: 16px;
+            border: none;
+            outline: none;
+            padding:  10px;
+            color: #fff;
+            width: 80px;
+        }
+    }
+}
+
+@media (max-width:991px){
+    .navigation{
+        .brand-logo{
+            width: 180px;
+        }
+    
+        .first{
+    
+            .nav-links{
+               display: none;
             }
         }
+    
+    }
+    .second{
+        gap: 10px;
+
+        
+        .mn-btn{
+            display: block;
+            background: transparent;
+            border: 1px solid rgba(53,184,114,.25);
+            border-radius: 8px;
+            font-weight: 700;
+            font-size: 16px;
+            padding:  10px;
+            color: #fff;
+        }
+        .coll{
+            flex-direction: column;
+            align-items:flex-start;
+            height: 100vh;
+            padding: 10px;
+            gap: 8px;
+            position: absolute;
+            top: 60px;
+            z-index: 1;
+            right: 0;
+            background: rgb(5, 20, 35);
+            width: 215px;
+            
+            .btn-secondary{
+                margin-left: -10px;
+            }
+        }
+
     }
 }

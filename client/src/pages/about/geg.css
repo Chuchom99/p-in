@@ -1,0 +1,203 @@
+.containerk {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1140px;
+    display: flex;
+    border-bottom: 1px solid rgba(255,255,255,.1);
+}
+
+.about_us__quotex {
+    max-width: 726px;
+    width: 100%;
+}
+.about_us__image {
+    width: 300px;
+    opacity: 0.7;
+    margin-left: 6rem;
+}
+.dol{
+    width: 50%;
+}
+
+.about_us__desires-container {
+    max-width: 1242px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    margin: 0 auto;
+    border-bottom: 1px solid rgba(255,255,255,.1);
+}
+.about_us__desires {
+    max-width: 598px;
+    width: 100%;
+    margin-top: 70px;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1140px;
+}
+.about_us__modern {
+    width: 100%;
+    background: url(./img/about-us-modern.png) no-repeat center 130px;
+    padding: 55px 0 0;
+}
+.main__reviews {
+    max-width: 1224px;
+    width: 100%;
+    margin: 0 auto 0;
+}
+.about_us__modern-title {
+    max-width: 591px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto 64px;
+}
+.about_us__modern-items {
+    max-width: 1228px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-bottom: 72px;
+    border-bottom: 1px solid rgba(255,255,255,.1);
+}
+.about_us__modern-item {
+    width: calc(100% / 4);
+    padding: 69px 24px 30px;
+    background: rgb(55 76 74 / 80%);
+    opacity: .9;
+    border-radius: 8px;
+    margin-right: 24px;
+}
+.main__start {
+    max-width: 1224px;
+    width: 100%;
+    margin: 58px auto 0;
+    padding-bottom: 88px;
+    border-bottom: 1px solid rgba(255,255,255,.05);
+}
+.main__start-title {
+    margin-bottom: 18px;
+}
+.main__start-subtitle {
+    margin-bottom: 33px;
+    font-size: 32px;
+    color: rgba(255,255,255,.3);
+}
+
+
+
+p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0;
+    color: rgba(255,255,255,.7);
+}
+
+.main__start-steps {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__start-step {
+    position: relative;
+    width: 288px;
+    padding: 13px 25px 56px;
+    color: #fff;
+}
+.main__start-step img {
+    display: block;
+    height: 124px;
+    margin: 0 auto 31px;
+}
+.main__start-step__title {
+    margin-bottom: 16px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+}
+.main__start-step__text {
+    margin-bottom: 24px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(255,255,255,.7);
+}
+.main__start-step__button {
+    position: absolute;
+    bottom: 0;
+    max-width: 238px;
+    width: 100%;
+    text-align: center;
+    color: #2b99ff;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    background: rgba(53,58,77,.8);
+    border-radius: 8px;
+    padding: 10px 40px;
+    border: 0;
+}
+.main__innovation-container {
+    max-width: 1224px;
+    width: 100%;
+    margin: 110px auto 100px;
+}
+.main__innovation-title {
+    max-width: 940px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.main__innovation-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+}
+.main__innovation-real {
+    width: 296px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #35b94c;
+    box-shadow: 0 4px 10px rgba(53,184,114,.25);
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    margin-right: 22px;
+}
+.main__innovation-demo {
+    width: 296px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #353a4d;
+    border: 0;
+    cursor: pointer;
+}

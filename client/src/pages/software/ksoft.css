@@ -1,0 +1,35 @@
+
+.about_us__quotex__container {
+    max-width: 1242px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-bottom: 47px;
+    border-bottom: 1px solid rgba(255,255,255,.1);
+    margin-top: 40px !important;
+}
+.comp-img {
+    background-color: #fff;
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.about_us__quotex {
+    max-width: 726px;
+    width: 100%;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1140px;
+}
